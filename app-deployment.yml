@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: microservice-app-api
-          image: "gcr.io/oceanic-impact-335410/microservice-app-api"
+          image: "gcr.io/oceanic-impact-335410/github.com/ineffable-games/gke-deployment-api:latest"
           env:
             - name: NAME_HOST
               value: 'microservice-app-name-service.default.svc.cluster.local'
